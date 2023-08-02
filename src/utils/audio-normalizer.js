@@ -19,6 +19,7 @@ export class AudioNormalizer {
     if (window.APP.store.state.preferences.audioNormalization) {
       if (!this.connected) {
         this.connect();
+		// a comment
       }
     } else {
       if (this.connected) {
